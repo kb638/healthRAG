@@ -1,0 +1,24 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    container_name: healthwise-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  solr:
+    image: solr:9.7
+    container_name: healthwise-solr
+    ports:
+      - "8983:8983"
+    command:
+      - solr-precreate
+      - healthwise_chunks
+    volumes:
+      - solr_data:/var/solr
+
+volumes:
+  qdrant_storage:
+  solr_data:

@@ -1,0 +1,45 @@
+{
+  "name": "healthwise-rag-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A source-grounded health education RAG demo with citations and safety boundaries.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:web": "npm --workspace apps/web run dev",
+    "build": "npm run build --workspaces",
+    "ingest": "tsx scripts/ingest.ts",
+    "chunk": "tsx scripts/chunk.ts",
+    "embed": "tsx scripts/embed.ts",
+    "services:up": "docker compose up -d",
+    "services:down": "docker compose down",
+    "qdrant:setup": "tsx scripts/qdrant-setup.ts",
+    "solr:setup": "tsx scripts/solr-setup.ts",
+    "index:qdrant": "tsx scripts/index-qdrant.ts",
+    "index:solr": "tsx scripts/index-solr.ts",
+    "retrieve:test": "tsx scripts/retrieve-test.ts",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc -b && npm run typecheck:scripts",
+    "typecheck:scripts": "tsc -p tsconfig.scripts.json",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@langchain/textsplitters": "^1.0.1",
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.4.2",
+    "js-tiktoken": "^1.0.21",
+    "openai": "^6.45.0"
+  }
+}

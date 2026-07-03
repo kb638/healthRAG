@@ -1,0 +1,82 @@
+[
+  {
+    "id": "medlineplus-type-2-diabetes",
+    "title": "Diabetes Type 2",
+    "sourceName": "MedlinePlus",
+    "sourceUrl": "https://medlineplus.gov/diabetestype2.html",
+    "topic": "diabetes",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "cdc-high-blood-pressure",
+    "title": "About High Blood Pressure",
+    "sourceName": "CDC",
+    "sourceUrl": "https://www.cdc.gov/high-blood-pressure/about/index.html",
+    "topic": "hypertension",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "nhlbi-asthma",
+    "title": "Asthma",
+    "sourceName": "NHLBI",
+    "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma",
+    "topic": "asthma",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "medlineplus-hay-fever",
+    "title": "Hay Fever",
+    "sourceName": "MedlinePlus",
+    "sourceUrl": "https://medlineplus.gov/hayfever.html",
+    "topic": "seasonal-allergies",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "medlineplus-ibuprofen",
+    "title": "Ibuprofen",
+    "sourceName": "MedlinePlus",
+    "sourceUrl": "https://medlineplus.gov/druginfo/meds/a682159.html",
+    "topic": "medication-safety",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "cdc-flu-symptoms",
+    "title": "Signs and Symptoms of Flu",
+    "sourceName": "CDC",
+    "sourceUrl": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+    "topic": "flu",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "nimh-depression",
+    "title": "Depression",
+    "sourceName": "NIMH",
+    "sourceUrl": "https://www.nimh.nih.gov/health/topics/depression",
+    "topic": "depression",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  },
+  {
+    "id": "medlineplus-cholesterol",
+    "title": "Cholesterol",
+    "sourceName": "MedlinePlus",
+    "sourceUrl": "https://medlineplus.gov/cholesterol.html",
+    "topic": "cholesterol",
+    "contentType": "html",
+    "accessedAt": "2026-07-02",
+    "trustLevel": "public-medical-source"
+  }
+]
