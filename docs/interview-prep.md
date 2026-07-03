@@ -42,3 +42,7 @@ I built a source-grounded health education assistant with React, Express, OpenAI
 ## When Asked About Tradeoffs
 
 This is a small local demo, so I chose transparent infrastructure over managed services. In production I would move Qdrant and Solr to managed or clustered services, add editorial workflows, run citation-faithfulness evals, monitor content freshness, and build stronger privacy boundaries before handling any user health data.
+
+## How the App Looks like
+<img width="1908" height="1053" alt="image" src="https://github.com/user-attachments/assets/a579325c-90da-4f3f-9dd1-e2ef0322e620" />
+
